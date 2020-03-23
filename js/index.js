@@ -66,3 +66,14 @@ function addZero(i) {
     }
     return i;
 }
+
+$(document).ready(function() {
+  $.ajax({
+    type:"GET",
+    url:"https://v1.jinrishici.com/shuqing/aiqing",
+    dataType:"json",
+    success:function(data){
+      $(".mb-0").text(data.content);
+    }
+  })
+});

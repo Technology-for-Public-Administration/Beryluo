@@ -2,6 +2,10 @@ body{
   background-color:#ffffff;
 }
 
+blockquote{
+  margin-top: 40px;
+  margin-bottom: -5px;
+}
 .center{
   margin: auto;
   position: absolute;
@@ -32,7 +36,7 @@ table td{
 }
 
 .title{
-  margin-top:295px;
+  margin-top:330px;
   margin-bottom:0px;
   text-align:Center;
   color:#696969;
